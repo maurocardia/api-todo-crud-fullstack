@@ -101,14 +101,13 @@ const ToDo = () => {
         <br />
         <br />
         <div className="listToDo">
-          <Table responsive variant="dark">
+          <Table responsive variant="dark" className="tabla">
             <thead>
               <tr>
                 <th>#</th>
                 <th>Titulo</th>
                 <th>Descripcion</th>
-                <th className="editTitle">Editar</th>
-                <th className="editTitle">Eliminar</th>
+                <th className="editTitle">Edit</th>
               </tr>
             </thead>
 
@@ -118,11 +117,10 @@ const ToDo = () => {
                   <td>{todo.id}</td>
                   <td>{todo.title}</td>
                   <td>{todo.task}</td>
-                  <td className="editIcon" onClick={() => editTask(todo)}>
-                    <AiFillEdit className="iconed" />
-                  </td>
-                  <td className="editIcon" onClick={() => deleteTask(todo)}>
-                    <AiTwotoneDelete className="iconed" />
+                  <td className="editIcon" >
+                    <AiFillEdit className="iconed2 icon2" onClick={() => editTask(todo)}/>
+      
+                    <AiTwotoneDelete className="iconed"  onClick={() => deleteTask(todo)} />
                   </td>
                 </tr>
               </tbody>

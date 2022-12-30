@@ -38,15 +38,35 @@
   outline: none;
 }
 
-.table {
-  width: 80vw;
-}
 
 .editIcon {
   cursor: pointer;
   text-align: center;
+  padding: 0;
+
 }
 
 .editTitle {
   text-align: center;
+}
+
+.listToDo{
+  display: flex;
+}
+
+.tabla{
+  width: 80vw;
+  min-width: none;
+  text-align: start;
+}
+
+.iconed{
+  margin-left: 0.4rem;
+}
+
+@media screen and (min-width: 490px) {
+  .iconed{
+    margin-left: 2rem;
+  }
+
 }
