@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containerLogin {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  margin-right: 0;
+  background-color: rgba(196, 220, 233, 0.847);
+  margin: 0;
+}
+
+.titleLogin {
+  width: 30vw;
+  text-align: right;
+  margin-right: 5rem;
+  font-weight: 700;
+  text-shadow: 0 3px 3px rgba(67, 66, 66, 0.509);
+}
+
+.principal {
+  width: 100vw;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.imgContainer > img {
+  height: 10rem;
+  width: 10rem;
+  right: 2rem;
+  top: 12rem;
+  position: absolute;
+  z-index: 20;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+  .imgContainer > img {
+    height: 6rem;
+    width: 6rem;
+    right: 2rem;
+    top: 12rem;
+    position: absolute;
+    z-index: 20;
+  }
+}

@@ -1,0 +1,25 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: 0;
+  background-color: transparent;
+}
+
+.barrContainer {
+  position: fixed;
+  width: 100vw;
+  border-style: none;
+  z-index: 5;
+
+  padding: 0;
+  top: 0;
+}
+
+.navbar-toggler-icon {
+  outline: transparent;
+  border-style: none;
+}
+
+.container {
+  border-style: none;
+}

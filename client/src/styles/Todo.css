@@ -1,0 +1,52 @@
+.containerTodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario {
+  margin-top: 2rem;
+  color: white;
+  width: 80vw;
+  max-width: 35rem;
+}
+
+.input {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.title {
+  height: 1.5rem;
+}
+
+.submitForm {
+  color: black;
+  background-color: white;
+  width: 5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+.submitForm:hover {
+  box-shadow: 2px 1px 6px rgba(255, 255, 255, 0.845);
+}
+
+.submitForm:focus {
+  outline: none;
+}
+
+.table {
+  width: 80vw;
+}
+
+.editIcon {
+  cursor: pointer;
+  text-align: center;
+}
+
+.editTitle {
+  text-align: center;
+}
